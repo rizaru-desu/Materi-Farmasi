@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Materi Farmasi",
+    "slug": "materi-farmasi",
+    "version": "1.0.8",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.sahabatalter.farmasi",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9341343436751788~3804440459"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-9341343436751788~3804440459"
+      },
+      "package": "com.sahabatalter.farmasi",
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE",
+        "CAMERA_ROLL",
+        "INTERNET",
+        "SYSTEM_ALERT_WINDOW"
+      ],
+      "versionCode": 9
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
